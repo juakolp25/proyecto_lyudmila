@@ -1,0 +1,182 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 200px; 
+    height: 200px; 
+    background-color: transparent;
+}
+    
+
+.container{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+}
+
+.cont-head{
+    width: 50%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+}
+
+.img-head{
+    width: 100%;
+    height: 100%;
+    background-image: url('imagen-head.png');
+    background-repeat: none;
+    background-size: cover;
+}
+
+.left-head{
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('humo-head.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+.link-conoc{
+    background-color: rgb(109, 32, 32);
+    padding: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.link-conoc:hover{
+    transition: 0.3s;
+    background-color: rgb(119, 24, 24);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+article{
+    width: 100%;
+    height: auto;
+    padding: 20px 60px;
+    display: block;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 30px 20px;
+}
+
+.bloque-img{
+    width: 250px;
+    height: 200px;
+}
+
+.bloque-img-medio{
+    width: 380px;
+    height: 290px;
+}
+
+.bloque-img img, .bloque-img-medio img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.margin-boton{
+    margin-top: 20px;
+}
+
+.fondo{
+    background-image: url("fondo-ladrillo.jpg");
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    height: 350px;
+}
+
+.txt{
+    background-color: transparent;
+    font-family: monospace;
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    background-color: #000;
+    font-family: monospace;
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #fff;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 710px) {
+    img{
+        width: 330px; 
+        height: 330px;
+    }
+    footer{
+        flex-direction: row;
+    }
+  }
+
+.block-footer_cont{
+    width: 100%;
+    padding: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.block-contacto{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.social, .link-social, .text{
+    width: 100%;
+    background-color: transparent;
+    font-family: monospace;
+    font-weight: bold;
+    color: #fff;
+    text-align: start;
+}
+
+.text{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 2.0rem;
+}
+
+.social{
+    font-size: 1.75rem;
+    padding: 5px;
+    color: rgb(26, 35, 73);
+}
+
+.link-social{
+    font-size: 1.55rem;
+    font-family: cursive;
+    padding: 5px;
+}
